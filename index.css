@@ -1,5 +1,5 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
 }
 
 #container {
@@ -8,7 +8,7 @@
   height: 850px;
   margin-top: 50px;
   border: 3px solid black;
-  background-color: antiquewhite;
+  background-color: #176534;
 }
 
 h1 {
@@ -16,8 +16,7 @@ h1 {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  background-color: #28587b;
-  color: #eeeeff;
+  color: #eab307;
   width: fit-content;
   padding: 1.5rem;
   border-radius: 5rem;
@@ -53,7 +52,7 @@ h1 {
   border: 1px solid black;
   width: 100px;
   padding: 5px;
-  background-color: #7f7caf;
+  background-color: #eab307;
   color: white;
   border-radius: 15%;
   margin-left: 25%;
@@ -61,22 +60,22 @@ h1 {
 }
 
 #start {
-  background-color: #7f7caf;
+  font-size: 1rem;
+  font-weight: bold;
   border: none;
-  color: white;
+  color: #eab307;
   cursor: pointer;
   display: flex;
   left: 65%;
   position: relative;
   text-align: center;
-  padding: 10px;
   border-radius: 15px;
-  width: 50px;
+  width: 5rem;
+  background-color: transparent;
 }
 
 #start:hover {
-  transform: scale(2, 2);
-  background-color: red;
+  transform: scale(1.5, 1.5);
 }
 
 #scoreInfo {
@@ -96,8 +95,9 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
-  color: blue;
-  width: 25px;
+  color: red;
+  font-size: larger;
+  width: 5rem;
   padding: 5px;
 }
 
@@ -116,10 +116,12 @@ h2 {
 }
 
 .snakeSquare {
-  background-color: #28587b;
+  background-color: #93c84b;
+  border-radius: 20px;
 }
 
 .foodSquare {
   background-color: red;
   border: 1px solid black;
+  border-radius: 10px;
 }
